@@ -1,0 +1,58 @@
+﻿/ 10/09/2022
+/ Daniel De Luna Díaz - A01423940@tec.mx
+/ Programa que intercambie los datos almacenados en 4 localidades de memoria.
+/ TC1032.200
+
+CLEAR
+
+LOAD A
+OUTPUT
+LOAD B
+OUTPUT
+LOAD C
+OUTPUT
+LOAD D
+OUTPUT
+
+LOAD A
+STORE NUM
+LOAD B
+STORE A
+LOAD NUM 
+STORE B
+CLEAR
+LOAD C
+STORE NUM
+LOAD D
+STORE C
+LOAD NUM
+STORE D
+
+/ Separador entre antes vs ahora
+LOAD msg
+OUTPUT
+
+LOAD A
+OUTPUT
+LOAD B
+OUTPUT
+LOAD C
+OUTPUT
+LOAD D
+OUTPUT
+
+HALT 
+/ Variables
+A, DEC 1
+B, DEC 2
+C, DEC 3
+D, DEC 4
+
+/ Variable independiente
+NUM, DEC 0
+
+/ Separador
+msg, DEC 00000
+ 
+
+

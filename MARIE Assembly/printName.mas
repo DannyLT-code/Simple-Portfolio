@@ -1,0 +1,50 @@
+﻿/ 10/09/2022
+/ Daniel De Luna Díaz - A01423940@tec.mx
+/ Programa que escribe en pantalla mi nombre con ambos apellidos y al final mi carrera.
+/ TC1032.200
+
+CLEAR			
+WHILE,		LOAD		STR_PTR		/ Cargamos apuntador
+ADD			ITR			/ itr + AC
+STORE		INDEX		/ Guardamos AC en Index
+CLEAR					/ AC = 0
+ADDI		INDEX		/ AC + Index[Index[X]]
+SKIPCOND	400			/ Si AC = 0 o null skip
+JUMP		DO			/ Saltamos a DO
+JUMP		END			/ Saltamos a END
+
+DO,			OUTPUT		
+LOAD		ITR			/ AC = ITR
+ADD			ONE			/ AC + 1
+STORE		ITR			/ ITR = AC 
+JUMP		WHILE		/ Saltamos a nuestro loop WHILE 
+END,		HALT
+ONE,		DEC			1
+ITR,		DEC			0
+INDEX,		HEX			0
+STR_PTR,	HEX			12			/ Apuntador a STR
+STR,		HEX			44			/ D
+			HEX			61			/ A
+			HEX			6E			/ N
+			HEX			69			/ I
+			HEX			65			/ E
+			HEX			6C			/ L
+			HEX			20			/ 
+			HEX			44			/ D
+			HEX			65			/ E
+			HEX			20			/ 
+			HEX			4C			/ L
+            HEX 		75			/ U
+            HEX 		6E			/ N
+            HEX 		61			/ A
+            HEX 		20 			/
+            HEX 		44			/ D
+            HEX 		ED			/ I 
+            HEX 		61          / A
+            HEX 		7A			/ Z
+            HEX 		2C			/ , 
+            HEX 		20			/ 
+            HEX 		49			/ I
+            HEX  		54 			/ T
+            HEX 		43			/ C
+			HEX			0			/ NULL 

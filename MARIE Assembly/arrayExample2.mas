@@ -1,0 +1,67 @@
+﻿/ 09/10/2022
+/ Daniel De Luna Diaz - A01423940@tec.mx
+/ programa que tome una serie de cinco localidades de memoria con unos valores iniciales
+/ y a cada una sume un valor, la primera 1, la segunda 2, etc.
+/ TC1032.200
+
+CLEAR		
+
+/ Guardamos arreglo en apuntador
+LOADI ARR
+STORE PTR
+
+LOOP1, LOADI PTR
+ADD COUNTER
+STOREI PTR
+
+CLEAR 
+
+LOAD PTR
+ADD ONE
+STORE PTR 
+
+CLEAR
+
+LOAD COUNTER
+ADD ONE
+STORE COUNTER
+
+CLEAR 
+
+/ Contador 
+LOAD SIZE
+SUBT ONE
+STORE SIZE
+SKIPCOND 400 
+JUMP LOOP1
+
+LOAD PTR
+SUBT ONE
+STORE PTR
+
+LOAD COUNTER 
+SUBT ONE
+STORE COUNTER
+
+LOOP, LOADI PTR
+OUTPUT
+LOAD PTR
+SUBT ONE
+STORE PTR
+LOAD COUNTER
+SUBT ONE
+STORE COUNTER
+SKIPCOND 400
+JUMP LOOP
+HALT
+
+ONE, DEC 1
+COUNTER, DEC 1
+PTR, DEC 0
+SIZE, Dec 5
+
+ARR, DEC 1
+     DEC 0 
+     DEC 0 
+     DEC 0
+     DEC 0

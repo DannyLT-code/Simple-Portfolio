@@ -1,0 +1,70 @@
+﻿/ 09/10/2022
+/ Daniel De Luna Diaz - A01423940@tec.mx
+/ Programa que toma la primera localidad de memoria de una secuencia de 6 números, 
+/ llenando las restantes cinco con el valor de la anterior más uno.
+/ TC1032.200
+
+CLEAR		
+
+/ Guardamos arreglo en apuntador
+LOADI ARR
+ADD ONE
+STORE PTR
+
+STORENUMS, CLEAR
+/ Cargamos apuntador
+LOAD PTR
+ADD ONE 
+STORE PTR 
+
+CLEAR
+
+/ Guardamos nuevo valor
+LOAD ARR
+ADD COUNTER 
+STOREI PTR 
+
+CLEAR
+
+/ Ajustamos contador
+LOAD COUNTER
+ADD ONE 
+STORE COUNTER
+
+/ Vaciamos AC
+CLEAR
+
+/ Contador 
+LOAD SIZE
+SUBT ONE
+STORE SIZE
+SKIPCOND 400 
+JUMP STORENUMS
+
+CLEAR 
+
+LOOP, LOADI PTR
+OUTPUT
+LOAD PTR
+SUBT ONE
+STORE PTR
+LOAD COUNTER
+SUBT ONE
+STORE COUNTER
+SKIPCOND 400
+JUMP LOOP
+HALT
+
+ONE, DEC 1
+COUNTER, DEC 0
+PTR, DEC 0
+SIZE, Dec 6
+
+ARR, DEC 1
+     DEC 0 
+     DEC 0 
+     DEC 0
+     DEC 0
+     DEC 0
+	 
+
