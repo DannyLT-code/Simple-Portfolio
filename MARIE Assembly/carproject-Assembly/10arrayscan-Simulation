@@ -1,0 +1,83 @@
+﻿/ Evidencia , Miercoles 19 de octubre, 2022
+/ TC1032.200
+
+CLEAR
+
+START, 	LOAD CONT_A	/Cargamos el contador A (10)
+	STORE CONT_B	/Asignamos el valor de 10 a nuestro contador B
+	LOAD ZERO		/Cargamos consante 0
+	STORE ACU		/Asignamos el valor de 0 al acumulador
+	STORE ANS		/Asignamos el valor de 0 a nuestra respuesta
+	LOAD BCKP		/Cargamos BCKP que apunta al inicio de ARR
+	STORE ARR	    /Asignamos el valor a arr para sobre-escribir los nuevos datos
+	
+SAVE, 	INPUT		/Leemos valor del teclado
+	STOREI ARR		/Almacenamos valor leido en donde apunta ARR
+	ADD ACU			/Sumamos el acumulador
+	STORE ACU		/Almacenamos nueva suma en el acumulador
+	LOAD ARR		/Cargamos posicion actual de ARR
+	ADD ONE			/Le incrementamos +1 a la posicion del arreglo
+	STORE ARR		/Guardamos la nueva posicion del arreglo
+	LOAD CONT_B		/Cargamos el valor de CONT B
+    SUBT ONE		/Le restamos -1 al contador B
+	STORE CONT_B	/Almacenamos el valor del nuevo contador
+	SKIPCOND 400	/Si el contador B = 0 entonces ya terminamos
+	JUMP SAVE		/Si el contador B /= 0 entonces seguimos
+	JUMP DIV		/Si ya terminamos entonces comenzamos division
+
+END, 	LOAD ANS	/Cargamos el promedio en AC
+	SUBT EXP		/Restamos promedio con expectativa
+    SKIPCOND 400	/Si < o > a 0 entonces imprimimos error
+    JUMP PRINT		/Imprimimos error
+    SKIPCOND 800	/Si > a 0 entonces imprimimos error
+    JUMP END2		/Imprimimos verde
+	JUMP PRINT		/Imprimimos error
+    
+END2, LOAD MEN2		  /Cargamos color verde 
+	OUTPUT			  /Imprimimos todo bien
+    JUMP START 		  /Reiniciamos programa 
+    
+/Funciones
+/Verificamos si AC es igual a cero
+VZERO,   SKIPCOND 400 
+	JUMP END		  /Si no es igual nos saltamos al final del programa
+	LOAD ANS		  /Si si es igual a 0, cargamos respuesta en AC
+	ADD ONE			  /Incrementamos AC + 1
+    STORE ANS		  /Guardamos nuevo valor en respuesta
+	JUMP END		  /Nos vamos al final del programa 
+        
+/Dividimos para sacar el promedio
+DIV,  	LOAD ACU 	  /Cargamos el valor del acumulador en AC 
+	SUBT CONT_A		  /Le restamos CONT A a AC
+	SKIPCOND 800	  /Si el numero es mayor a 0 seguimos
+	JUMP VZERO		  /Si no es mayor a cero nos saltamos a la funcion VZERO
+	STORE ACU		  /Almacenamos nuevo valor en el acumulador
+	LOAD ANS		  /Cargamos el valor de ANS en AC
+	ADD ONE			  /Incrementamos el valor de AC + 1
+	STORE ANS		  /Almacenamos el valor de AC en ANS
+	JUMP DIV		  /Iteramos para seguir con el ciclo
+
+PRINT, LOAD MEN1	  /Cargamos color amarillo
+	OUTPUT			  /imprimimos error amarillo
+    JUMP START		  /Reiniciamos programa
+   
+            
+/Variables
+CONT_A, DEC 3 		  /Contador de 10 medidas
+CONT_B, DEC 0		  /Contador generico
+ARR, HEX 50			  /Arreglo de valores medidos
+BCKP, HEX 50		  /Direccion de arreglo
+ACU, DEC 0			  /Acumulador 
+ANS, DEC 0			  /Respuesta
+
+
+/Variables constantes
+ZERO, DEC 0			  /Constante = 0
+ONE, DEC 1			  /Constante = 1
+EXP, DEC 5
+
+/Msgs
+MEN1, HEX 59		/ "Y" de yellow es decir error
+
+MEN2, HEX 47		/ "G" de green es decir bien
+
