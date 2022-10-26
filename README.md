@@ -1,7 +1,7 @@
 <div align="center">
 
 # Simple-Portfolio
-[![Generic badge](https://img.shields.io/badge/<Portfolio>-<Active>-<COLOR>.svg)](https://shields.io/)
+[![Generic badge](https://img.shields.io/badge/Portfolio-Active-<COLOR>.svg)](https://shields.io/)<br />
 This is a simple portfolio containing most of my school work & homelabs! <br />
 
 Even though most of my projects have their own separate repositories 
@@ -29,7 +29,7 @@ by adding everything I work on at least once every 6 months.<br />
 | `SQL`         | All SQL projects                              |
 | `Misc`        | All miscellaneous files (pdf,doc,xlx, etc)    |
 
-</div>
+</div>.
 
 ## Socials
 Website: [![Firefox][firefox-badge]][website]<br />.
