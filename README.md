@@ -10,9 +10,8 @@ This is a simple portfolio containing most of my school work & homelabs!
 </div>
 
 ## Website
-[![Edge][edge]      [website]
+[![crates.io][crates.io-badge]][crates.io]
 
 
-
-[edge]: https://img.shields.io/badge/Edge-0078D7?style=for-the-badge&logo=Microsoft-edge&logoColor=white
-[website]: danderu.com
+[crates.io-badge]: https://img.shields.io/crates/v/zoxide?style=flat-square
+[crates.io]: https://crates.io/crates/zoxide
