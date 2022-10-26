@@ -1,6 +1,7 @@
 <div align="center">
 
 # Simple-Portfolio
+[![Generic badge](https://img.shields.io/badge/<Portfolio>-<Active>-<COLOR>.svg)](https://shields.io/)
 This is a simple portfolio containing most of my school work & homelabs! <br />
 
 Even though most of my projects have their own separate repositories 
