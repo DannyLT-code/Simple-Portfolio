@@ -1,2 +1,12 @@
+<div align="center">
+
 # Simple-Portfolio
- A simple portfolio for all of my important schoolwork & projects! 
+This is a simple portfolio containing most of my school work & homelabs! 
+
+</div>
+
+## Content table 
+
+</div>
+
+## Website
