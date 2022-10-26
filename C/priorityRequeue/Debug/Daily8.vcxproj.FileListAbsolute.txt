@@ -1,0 +1,2 @@
+C:\Users\Daniel\source\repos\Daily8\Debug\Daily8.exe
+C:\Users\Daniel\source\repos\Daily8\Debug\Daily8.pdb

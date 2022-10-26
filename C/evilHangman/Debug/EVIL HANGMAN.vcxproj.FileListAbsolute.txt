@@ -1,0 +1,2 @@
+C:\Users\Daniel\source\repos\EVIL HANGMAN\Debug\EVIL HANGMAN.exe
+C:\Users\Daniel\source\repos\EVIL HANGMAN\Debug\EVIL HANGMAN.pdb
