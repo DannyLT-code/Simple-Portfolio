@@ -10,8 +10,8 @@ This is a simple portfolio containing most of my school work & homelabs!
 </div>
 
 ## Website
-[![crates.io][crates.io-badge]][crates.io]
+[![Firefox][firefox-badge]][crates.io]
 
 
-[crates.io-badge]: https://img.shields.io/crates/v/zoxide?style=flat-square
-[crates.io]: https://crates.io/crates/zoxide
+[firefox-badge]: https://img.shields.io/badge/Firefox-FF7139?style=for-the-badge&logo=Firefox-Browser&logoColor=white
+[crates.io]: danderu.com
