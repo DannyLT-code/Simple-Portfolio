@@ -10,7 +10,7 @@ This is a simple portfolio containing most of my school work & homelabs!
 </div>
 
 ## Website
-![Edge][edge][website]
+[![Edge][edge]      [website]
 
 
 
