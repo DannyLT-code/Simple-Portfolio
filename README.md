@@ -31,9 +31,13 @@ by adding everything I work on at least once every 6 months.<br />
 </div>
 
 ## Socials
-Website: [![Firefox][firefox-badge]][crates.io]<br />
-Linkedin:<br />
-Github: <br />
+Website: [![Firefox][firefox-badge]][website]<br />
+Linkedin:[![LinkedIn][linkedin-badge]][linkedin-profile]<br />
+Github: [![GitHub][github-badge]][github-profile]<br />
 
 [firefox-badge]: https://img.shields.io/badge/Firefox-FF7139?style=for-the-badge&logo=Firefox-Browser&logoColor=white
-[crates.io]: danderu.com
+[github-badge]: https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white
+[github-profile]: https://github.com/Danneruu
+[linkedin-badge]: https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white
+[linkedin-profile]: https://www.linkedin.com/in/daniel-de-luna-a28047238/
+[website]: danderu.com
