@@ -15,19 +15,20 @@ by adding everything I work on at least once every 6 months.<br />
 
 ## Content table 
 
-| Subfolder     | Description                                   |
-| ------------- | --------------------------------------------- |
-| `Assembly`    | All MARIE.JS assembly projects                |
-| `C`           | All C projects                                |
-| `C++`         | All C++ projects                              |
-| `C#`          | All C# projects                               |
-| `JavaScript`  | All JavaScript projects                       |
-| `MATLAB`      | All MATLAB projects                           |
-| `Proteus`     | All Proteus projects                          |
-| `Python`      | All Python projects                           |
-| `R`           | All R projects                                |
-| `SQL`         | All SQL projects                              |
-| `Misc`        | All miscellaneous files (pdf,doc,xlx, etc)    |
+| Subfolder                  | Description                                        |
+| -------------------------- | -------------------------------------------------- |
+| `Assembly`                 | All MARIE.JS assembly projects                     |
+| `C`                        | All C projects                                     |
+| `C++`                      | All C++ projects                                   |
+| `C#`                       | All C# projects                                    |
+| `JavaScript`               | All JavaScript projects                            |
+| `MATLAB`                   | All MATLAB projects                                |
+| `Proteus`                  | All Proteus projects                               |
+| `Python`                   | All Python projects                                |
+| `R`                        | All R projects                                     |
+| `SQL`                      | All SQL projects                                   |
+| `Complete projects`        | Projects that I have either finished or dropped    |
+| `Misc`                     | All miscellaneous files (pdf,doc,xlx, etc)         |
 
 </div>.
 
