@@ -1,0 +1,3 @@
+C:/Users/ashta/Developer/C++/Reto1/cmake-build-debug/CMakeFiles/Reto1.dir
+C:/Users/ashta/Developer/C++/Reto1/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/ashta/Developer/C++/Reto1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
