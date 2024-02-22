@@ -1,13 +1,13 @@
 <div align="center">
 
 # Simple-Portfolio
-[![Generic badge](https://img.shields.io/badge/Portfolio-Active-<COLOR>.svg)](https://shields.io/)<br />
-This is a simple portfolio containing most of my school work & homelabs! <br />
+[![Generic badge](https://img.shields.io/badge/Portfolio-Inactive-<COLOR>.svg)](https://shields.io/)<br />
+This is a simple portfolio containing some of my school assignments! <br />
 
-Even though most of my projects have their own separate repositories 
-this is just a place where I have them all together for ease of access.<br />
+Even though other projects have their own separate repositories 
+this is just a place where I the smaller ones for ease of access.<br />
 
-I will do my best to keep this repository updated 
+I will do my best to keep this repository updated (No I won't lol)
 by adding everything I work on at least once every 6 months.<br />
 
 
@@ -39,7 +39,6 @@ Github: [![GitHub][github-badge]][github-profile]
 
 [firefox-badge]: https://img.shields.io/badge/Firefox-FF7139?style=for-the-badge&logo=Firefox-Browser&logoColor=white
 [github-badge]: https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white
-[github-profile]: https://github.com/Danneruu
+[github-profile]: https://github.com/DannyLT-code
 [linkedin-badge]: https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white
-[linkedin-profile]: https://www.linkedin.com/in/daniel-de-luna-a28047238/
-[website]: danderu.com
+[linkedin-profile]: [https://www.linkedin.com/in/daniel-de-luna-a28047238/](https://www.linkedin.com/in/daniel-de-luna/)https://www.linkedin.com/in/daniel-de-luna/
