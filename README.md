@@ -22,11 +22,11 @@ by adding everything I work on at least once every 6 months.<br />
 | `Python`                   | All Python projects                                |
 | `SQL`                      | All SQL projects                                   |
 
-</div>.
+</div>
 
 ## Socials
-Linkedin:[![LinkedIn][linkedin-badge]][linkedin-profile]<br />.
-Github: [![GitHub][github-badge]][github-profile]
+Linkedin:  [![LinkedIn][linkedin-badge]][linkedin-profile]<br />
+Github:    [![GitHub][github-badge]][github-profile]
 
 [github-badge]: https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white
 [github-profile]: https://github.com/DannyLT-code
