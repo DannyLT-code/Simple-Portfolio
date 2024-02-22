@@ -33,11 +33,9 @@ by adding everything I work on at least once every 6 months.<br />
 </div>.
 
 ## Socials
-Website: [![Firefox][firefox-badge]][website]<br />.
 Linkedin:[![LinkedIn][linkedin-badge]][linkedin-profile]<br />.
 Github: [![GitHub][github-badge]][github-profile]
 
-[firefox-badge]: https://img.shields.io/badge/Firefox-FF7139?style=for-the-badge&logo=Firefox-Browser&logoColor=white
 [github-badge]: https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white
 [github-profile]: https://github.com/DannyLT-code
 [linkedin-badge]: https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white
