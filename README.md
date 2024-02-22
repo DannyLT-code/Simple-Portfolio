@@ -2,10 +2,7 @@
 
 # Simple-Portfolio
 [![Generic badge](https://img.shields.io/badge/Portfolio-Inactive-<COLOR>.svg)](https://shields.io/)<br />
-This is a simple portfolio containing some of my school assignments! <br />
-
-Even though other projects have their own separate repositories 
-this is just a place where I the smaller ones for ease of access.<br />
+This is a simple portfolio containing some of my school assignments. <br />
 
 I will do my best to keep this repository updated (No I won't lol)
 by adding everything I work on at least once every 6 months.<br />
@@ -20,15 +17,10 @@ by adding everything I work on at least once every 6 months.<br />
 | `Assembly`                 | All MARIE.JS assembly projects                     |
 | `C`                        | All C projects                                     |
 | `C++`                      | All C++ projects                                   |
-| `C#`                       | All C# projects                                    |
-| `JavaScript`               | All JavaScript projects                            |
-| `MATLAB`                   | All MATLAB projects                                |
+| `JavaScript`               | All JavaScript projects                            |                             
 | `Proteus`                  | All Proteus projects                               |
 | `Python`                   | All Python projects                                |
-| `R`                        | All R projects                                     |
 | `SQL`                      | All SQL projects                                   |
-| `Complete projects`        | Projects that I have either finished or dropped    |
-| `Misc`                     | All miscellaneous files (pdf,doc,xlx, etc)         |
 
 </div>.
 
